@@ -138,13 +138,23 @@ iframe {
     padding: auto;
 }
 
-div {
-    background-color: aquamarine;
-    border-radius: 0px 0px 15px 15px;
-    padding: 15px;
+aside h3 {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin-top: -15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-div ul {
+aside {
+    background-color: aquamarine;
+    border-radius: 0px 0px 15px 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+aside ul {
     display: inline-block;
     padding: auto;
     margin: auto;
@@ -153,7 +163,7 @@ div ul {
 footer {
     background-color: darkgreen;
     margin-top: 15px;
-    height: 20px;
+    min-height: 30px;
     width: 100%;
     text-align: center;
 }
